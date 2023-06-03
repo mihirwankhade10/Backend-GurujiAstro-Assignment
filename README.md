@@ -65,6 +65,13 @@ For detailed information on the request and response formats, please refer to th
 
 You can test the API using tools like ThunderClient, Postman, or cURL. Use the provided API endpoints with the required headers and request bodies as described in the API documentation.
 
+### Testing with ThunderClient
+You can test the API endpoints using ThunderClient, a REST client extension for Visual Studio Code.
+Install ThunderClient extension in Visual Studio Code.
+Open ThunderClient and create a new HTTP Request Collection.
+Add requests for each API endpoint mentioned above, providing the necessary request bodies and headers (including the JWT token as the Authorization header for authenticated requests).
+Send the requests and verify the responses.
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to enhance the functionality, feel free to open an issue or submit a pull request.
